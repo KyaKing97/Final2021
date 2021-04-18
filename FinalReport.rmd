@@ -56,7 +56,7 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 
 This barchart shows that out of the approximately 340 Males who were infected with Covid-19, 57% were given the drug, and 43% were given the placebo. 
 
-## Numerical Summary
+##  Numerical Summary
 
 ```{r}
 table1 <- xtabs(~treatment + infected, data=Maledata)
